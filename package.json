@@ -1,19 +1,40 @@
 {
   "name": "Node-Blog",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "nodemon app.js -q"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "bcrypt": "^5.0.1",
+    "connect-mongodb-session": "^3.1.1",
+    "dateformat": "^5.0.2",
+    "dotenv": "^10.0.0",
     "ejs": "^3.1.6",
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "express-flash": "0.0.2",
+    "express-session": "^1.17.2",
+    "express-validator": "^6.14.0",
+    "flash": "^1.1.0",
+    "flash-express": "^1.0.4",
+    "formidable": "^2.0.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.1.4",
+    "uuid": "^8.3.2"
   },
   "devDependencies": {
     "nodemon": "^2.0.15"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nitin40ij/Node-Blog.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Nitin40ij/Node-Blog/issues"
+  },
+  "homepage": "https://github.com/Nitin40ij/Node-Blog#readme",
+  "description": ""
 }

@@ -1,0 +1,19 @@
+<nav class="nav">
+    <ul class="left-nav">
+        <li><a href="/">Home</a></li>
+        <% if(login){ %>
+            <li><a href="/createPost"> Add post</a></li>
+            <li><a href="/posts/1">Post</a></li>
+       <% }%>
+    </ul>
+    <ul class="right-nav">
+        <% if(login){ %>
+            <li><a href="/logout"> logout</a></li>
+            <% }else { %>
+                <li><a href="/">Register</a></li>
+                <li><a href="/login">Login</a></li>
+        
+       <% }%>
+       
+    </ul>
+</nav>
